@@ -1,0 +1,7 @@
+<div class="container main-content">
+  <div *ngFor="let movie of movies" class="card">
+    <img class="thumb-poster" src="{{ movie.Poster }}" alt="" />
+    <p class="title">{{ movie.Title }}</p>
+    <button class="btn-show">See More</button>
+  </div>
+</div>
